@@ -6,6 +6,13 @@ import java.util.List;
 
 import metier.Compte;
 
+
+
+
+/**
+ * @author Zakaria
+ * POJO PLain Old Java Project
+ */
 public class BanqueService {
 public double conversion(double mt) {
 	return mt*11;
@@ -19,7 +26,6 @@ public List<Compte> listComptes() {
 	comptes.add(new Compte(1,Math.random()*9000,new Date()));	
 	comptes.add(new Compte(2,Math.random()*9000,new Date()));
 	comptes.add(new Compte(3,Math.random()*9000,new Date()));
-	
 	return comptes;
 	
 }
